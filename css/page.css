@@ -1,0 +1,194 @@
+@media screen and (max-width:700px){
+  section{
+    max-width: 460px; margin: 0 auto 30px;
+  }
+  .buyMainContainer,
+  .subMainContainer{
+    max-width: 500px; margin: 0 auto; padding: 60px 20px; box-sizing: border-box;
+  }
+  .buyMainContainer .project .buyTitle,
+  .subMainContainer .sub_project .sub_buyTitle{
+    display: block;
+  }
+  .buyMainContainer .project .buyTitle p,
+  .subMainContainer .sub_project .sub_buyTitle p{
+    font-size: 18px; font-weight: 700; letter-spacing: -1px; margin: 0 84px;
+  }
+  .buyMainContainer .project .buyTitle p span,
+  .subMainContainer .sub_project .sub_buyTitle p span{
+    color: #5f9ea0;
+  }
+  .buyMainContainer .project .buyTitle h2{
+    font-size: 30px; margin: 0 79px;
+  }
+  .subMainContainer .sub_project .sub_buyTitle h2{
+    font-size: 30px; margin: 0 60px;
+  }
+  .buyMainContainer .project .buyButton,
+  .subMainContainer .sub_project .sub_buyButton{
+    max-width: 300px; margin: 0 auto;
+  }
+  .buyMainContainer .project .buyButton ul,
+  .subMainContainer .sub_project .sub_buyButton ul{
+    list-style: none; padding: 0; display: inline-block;
+  }
+  .buyMainContainer .project .buyButton ul li,
+  .subMainContainer .sub_project .sub_buyButton ul li{
+    display: inline-block; border-radius: 10px;
+  }
+  .buyMainContainer .project .buyButton ul li:first-of-type,
+  .subMainContainer .sub_project .sub_buyButton ul li:first-of-type{
+    padding: 10px 20px; background: #5f9ea0; margin: 0 8px;
+  }
+  .buyMainContainer .project .buyButton ul li:first-of-type a,
+  .subMainContainer .sub_project .sub_buyButton ul li:first-of-type a{
+    display: block; color: #fff;
+  }
+  .buyMainContainer .project .buyButton ul li:last-of-type,
+  .subMainContainer .sub_project .sub_buyButton ul li:last-of-type{
+    padding: 10px 40px; background: #888; margin-right: 8px;
+  }
+  /* ? project Area fin */
+
+  .defaultInform h2,
+  .sub_defaultInform h2{
+    font-size: 16px; padding: 20px 0; text-align: center; border-bottom: 2px solid #000; margin: 0;
+  }
+  .defaultInform div div:first-of-type ul,
+  .defaultInform div div:nth-of-type(2) ul,
+  .defaultInform div div:nth-of-type(3) ul,
+  .sub_defaultInform div div:first-of-type ul,
+  .sub_defaultInform div div:nth-of-type(2) ul,
+  .sub_defaultInform div div:nth-of-type(3) ul{
+    padding: 0;
+  }
+  .defaultInform div div:not(:first-of-type) ul,
+  .sub_defaultInform div div:not(:first-of-type) ul{
+    margin: 0 0 5px 0;
+  }
+  .defaultInform div div:first-of-type ul li,
+  .sub_defaultInform div div:first-of-type ul li{
+    display: inline-block; width: 17%;
+  }
+  .defaultInform div div:first-of-type ul li:not(:first-of-type),
+  .sub_defaultInform div div:first-of-type ul li:not(:first-of-type){
+    margin-left: 2%;
+  }
+  .defaultInform div div:first-of-type ul li div label,
+  .defaultInform div div:nth-of-type(2) ul li div label,
+  .defaultInform div div:nth-of-type(3) ul li div label,
+  .sub_defaultInform div div:first-of-type ul li div label,
+  .sub_defaultInform div div:nth-of-type(2) ul li div label,
+  .sub_defaultInform div div:nth-of-type(3) ul li div label{
+    font-size: 12px;
+  }
+  .defaultInform div div:first-of-type ul li div input,
+  .sub_defaultInform div div:first-of-type ul li div input{
+    max-width: 80px;
+  }
+  .defaultInform div div:nth-of-type(2) ul li,
+  .defaultInform div div:nth-of-type(3) ul li,
+  .sub_defaultInform div div:nth-of-type(2) ul li,
+  .sub_defaultInform div div:nth-of-type(3) ul li{
+    display: inline-block; width: 48%;
+  }
+  .defaultInform div div:nth-of-type(2) ul li:last-of-type,
+  .defaultInform div div:nth-of-type(3) ul li:last-of-type,
+  .sub_defaultInform div div:nth-of-type(2) ul li:last-of-type,
+  .sub_defaultInform div div:nth-of-type(3) ul li:last-of-type{
+    margin-left: 2%;
+  }
+  .defaultInform div div:nth-of-type(2) ul li div input,
+  .defaultInform div div:nth-of-type(3) ul li div input,
+  .sub_defaultInform div div:nth-of-type(2) ul li div input,
+  .sub_defaultInform div div:nth-of-type(3) ul li div input{
+    max-width: 150px;
+  }
+  .defaultInform > div:last-of-type label,
+  .sub_defaultInform > div:last-of-type label{
+    font-size: 12px;
+  }
+  .defaultInform > div:last-of-type input,
+  .sub_defaultInform > div:last-of-type input{
+    width: 77.7%;
+  }
+  /* ? defaultInform Area fin */
+
+  table{
+    border-collapse : collapse;
+    border-spacing : 0;
+    border-top: 2px solid #5f9ea0;
+    margin: 0;
+    width: 100%;
+  }
+  table caption{
+    text-align: center; padding: 20px 0; font-size: 15px; margin: 0; font-weight: 700;
+  }
+  table tr{
+    border-bottom: 1px solid #deebeb; text-align: center;
+  }
+  table tr th
+  table tr td{
+    border-right: 1px solid #deebeb;
+  }
+  table tr th{
+    background: #f2f6f7; font-size: 12px; padding: 15px 0; color: #3a8a8c; font-weight: 700;
+  }
+  /* ?current_situation Area fin */
+
+  .default_inform,
+  .precautions div,
+  .sub_default_inform,
+  .sub_precautions div{
+    padding: 20px;  background: #f3f7f8; border-radius: 15px;
+  }
+  .default_inform p,
+  .precautions p,
+  .sub_default_inform p,
+  .sub_precautions p{
+    color: #349396; text-align: left; font-size: 12px; margin: 0 0 0 20px; font-weight: 700;
+  }
+  .default_inform ul,
+  .precautions ul,
+  .sub_default_inform ul,
+  .sub_precautions ul{
+    padding: 0 20px;
+  }
+  .default_inform ul li,
+  .precautions ul li,
+  .sub_default_inform ul li,
+  .sub_precautions ul li{
+    font-size: 12px;
+  }
+  .default_inform ul li:not(:last-of-type),
+  .sub_default_inform ul li:not(:last-of-type){
+    margin-bottom: 10px;
+  }
+  .default_inform ul li span{
+    color: #ff5757; font-weight: 700;
+  }
+  /* ?default_inform Area fin */
+
+  .reception{
+    position: relative;
+  }
+  .reception table caption,
+  .sub_reception table caption{
+    text-align: left; padding: 20px 0; font-size: 15px; margin: 0; font-weight: 700;
+  }
+  .reception .situation_button ul{
+    position: absolute; top: -3px; right: 0; padding: 0;
+  }
+  .reception .situation_button ul li,
+  .sub_reception .situation_button ul li{
+    list-style-type: none; float: left; padding: 10px; background: #619ea1; border-radius: 8px;
+  }
+  .reception .situation_button ul li:last-of-type,
+  .sub_reception .situation_button ul li:last-of-type{
+    margin-left: 10px;
+  }
+  .reception .situation_button ul li a,
+  .sub_reception .situation_button ul li a{
+    display: block; color: #fff; font-size: 14px; font-weight: 700;
+  }
+}

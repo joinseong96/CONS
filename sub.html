@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOOFCO</title>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/core.js"></script>
+  <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+  <div class="subMainContainer">
+    
+    <section class="sub_project">
+      <div class="sub_buyTitle">
+        <p>구매자 프로젝트 현황 : <span>견적서 접수 중</span></p>
+        <h2>Supplier Project Status</h2>
+      </div>
+      <div class="sub_buyButton">
+        <ul>
+          <li><a href="#">견적의뢰서 확인</a></li>
+          <li>닫기</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sub_defaultInform">
+      <div>
+        <h2>구매자 견적의뢰 기본 정보</h2>
+        <div>
+          <ul>
+            <li>
+              <div>
+                <label for="request">견적의뢰 No.</label>
+                <input type="text" id="request">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="order">구매주문 No.</label>
+                <input type="text" id="order">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="estimate_date">견적 요청일</label>
+                <input type="text" id="estimate_date">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="estimate_end_date">견적 마감일</label>
+                <input type="text" id="estimate_end_date">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="delivery_date">납품 요청일</label>
+                <input type="text" id="delivery_date">
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>
+              <div>
+                <label for="payment">결제 조건</label>
+                <input type="text" id="payment">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="request_title">의뢰 제목</label>
+                <input type="text" id="request_title">
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>
+              <div>
+                <label for="transit">운송 조건</label>
+                <input type="text" id="transit">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="delivery_place">납품 장소</label>
+                <input type="text" id="delivery_place">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <label for="estimate_etc">기타 견적 조건</label>
+        <input type="text" id="estimate_etc">
+      </div>
+    </section>
+
+    <section class="sub_current_situation">
+      <table>
+        <caption>견적서 회신 현황</caption>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>회신 일자</th>
+            <th>판매자 견적 No.</th>
+            <th>견적 금액(KRW)</th>
+            <th>납품 예상일</th>
+            <th>결제 조건</th>
+            <th>운송 조건</th>
+            <th>견적서</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>01</th>
+            <td>2022-04-22</td>
+            <td>112223</td>
+            <td>123,123</td>
+            <td>2022-04-26</td>
+            <td>현금결제-기타</td>
+            <td>발송+납품(판매자 왕복)</td>
+            <td>OPEN</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="sub_default_inform">
+      <div>
+        <p class="sub_inform_text">구매주문서 접수 현황 안내사항</p>
+        <ul>
+          <li>
+            "견적서 회신 현황" 테이블의 회신일자에 날짜가 없는 경우, 해당 견적서는 저장만 완료된 상태입니다.
+          </li>
+          <li>
+            상단의"견적서 회신"버튼을 클릭하면,구매자에게 견적서가 전달되고 회신일자에 날짜가 표시됩니다.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sub_send_situation">
+      <table>
+        <caption>구매주문서 접수 현황</caption>
+
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>접수 일자</th>
+            <th>판매자 견적 No.</th>
+            <th>발주 금액(KRW)</th>
+            <th>납품 요청일</th>
+            <th>결제 조건</th>
+            <th>운송 조건</th>
+            <th>구매주문서</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>01</th>
+            <td>2022-04-22</td>
+            <td>11223</td>
+            <td>123,123</td>
+            <td>2022-04-30</td>
+            <td>현금결제-선금 100%</td>
+            <td></td>
+            <td>OPEN</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="sub_reception">
+      <table>
+        <caption>결제 현황(VAT 별도)</caption>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>접수 일자</th>
+            <th>구매주문 금액</th>
+            <th>잔액</th>
+            <th>결제 요청 금액</th>
+            <th>%</th>
+            <th>상태</th>
+            <th>거래명세서</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>01</th>
+            <td>-</td>
+            <td>123,123</td>
+            <td>-</td>
+            <td>-</td>
+            <td></td>
+            <td><button>결제요청</button></td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</body>
+</html>
